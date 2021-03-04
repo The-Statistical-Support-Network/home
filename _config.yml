@@ -17,7 +17,7 @@ navbar-links:
   About Me: "aboutme"
   Resources:
       - Download RStudio: "https://rstudio.com/products/rstudio/"
-  	  - Learning R: "https://rstudio.com/products/rstudio/"
+  Learning R: "https://rstudio.com/products/rstudio/"
   Build you own website: "https://beautifuljekyll.com"
       - Learn markdown: "https://www.markdowntutorial.com/"
   Author's home: "https://davan690.github.io"
