@@ -16,7 +16,9 @@ author: Anthony Davidson
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
+  	- Download RStudio: "https://rstudio.com/products/rstudio/"
+  	- Learning R: "https://rstudio.com/products/rstudio/"
+    - Build you own website: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
   Author's home: "https://davan690.github.io"
 
@@ -42,7 +44,7 @@ social-network-links:
   email: "anthony.davidson@canberra.edu.au"
 #  facebook: deanattali
   github: davan690
-#  twitter: daattali
+  twitter: antsStats
 #  patreon: DeanAttali
 #  youtube: c/daattali
 #  medium: yourname
@@ -70,7 +72,7 @@ rss-description: The beginnings of an online statistics network.
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: false
+  twitter: true
   facebook: false
   linkedin: false
   vk: false
@@ -186,7 +188,7 @@ date_format: "%B %-d, %Y"
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "Sydney/Australia"
+timezone: "Australia/Sydney"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
@@ -220,7 +222,6 @@ exclude:
   - LICENSE
   - README.md
   - screenshot.png
-  - docs/
 
 plugins:
   - jekyll-paginate
